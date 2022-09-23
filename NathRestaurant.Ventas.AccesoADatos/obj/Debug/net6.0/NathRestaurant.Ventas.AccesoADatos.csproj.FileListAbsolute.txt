@@ -1,0 +1,15 @@
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.AccesoADatos\bin\Debug\net6.0\NathRestaurant.Ventas.AccesoADatos.deps.json
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.AccesoADatos\bin\Debug\net6.0\NathRestaurant.Ventas.AccesoADatos.dll
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.AccesoADatos\bin\Debug\net6.0\NathRestaurant.Ventas.AccesoADatos.pdb
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.AccesoADatos\bin\Debug\net6.0\NathRestaurant.Ventas.EntidadesDeNegocio.dll
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.AccesoADatos\bin\Debug\net6.0\NathRestaurant.Ventas.EntidadesDeNegocio.pdb
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.AccesoADatos\obj\Debug\net6.0\NathRestaurant.Ventas.AccesoADatos.csproj.AssemblyReference.cache
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.AccesoADatos\obj\Debug\net6.0\NathRestaurant.Ventas.AccesoADatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.AccesoADatos\obj\Debug\net6.0\NathRestaurant.Ventas.AccesoADatos.AssemblyInfoInputs.cache
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.AccesoADatos\obj\Debug\net6.0\NathRestaurant.Ventas.AccesoADatos.AssemblyInfo.cs
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.AccesoADatos\obj\Debug\net6.0\NathRestaurant.Ventas.AccesoADatos.csproj.CoreCompileInputs.cache
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.AccesoADatos\obj\Debug\net6.0\NathRestaurant.Ventas.AccesoADatos.csproj.CopyComplete
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.AccesoADatos\obj\Debug\net6.0\NathRestaurant.Ventas.AccesoADatos.dll
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.AccesoADatos\obj\Debug\net6.0\refint\NathRestaurant.Ventas.AccesoADatos.dll
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.AccesoADatos\obj\Debug\net6.0\NathRestaurant.Ventas.AccesoADatos.pdb
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.AccesoADatos\obj\Debug\net6.0\ref\NathRestaurant.Ventas.AccesoADatos.dll

@@ -1,0 +1,17 @@
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.LogicaDeNegocio\bin\Debug\net6.0\NathRestaurant.Ventas.LogicaDeNegocio.deps.json
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.LogicaDeNegocio\bin\Debug\net6.0\NathRestaurant.Ventas.LogicaDeNegocio.dll
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.LogicaDeNegocio\bin\Debug\net6.0\NathRestaurant.Ventas.LogicaDeNegocio.pdb
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.LogicaDeNegocio\bin\Debug\net6.0\NathRestaurant.Ventas.AccesoADatos.dll
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.LogicaDeNegocio\bin\Debug\net6.0\NathRestaurant.Ventas.EntidadesDeNegocio.dll
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.LogicaDeNegocio\bin\Debug\net6.0\NathRestaurant.Ventas.AccesoADatos.pdb
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.LogicaDeNegocio\bin\Debug\net6.0\NathRestaurant.Ventas.EntidadesDeNegocio.pdb
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.LogicaDeNegocio\obj\Debug\net6.0\NathRestaurant.Ventas.LogicaDeNegocio.csproj.AssemblyReference.cache
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.LogicaDeNegocio\obj\Debug\net6.0\NathRestaurant.Ventas.LogicaDeNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.LogicaDeNegocio\obj\Debug\net6.0\NathRestaurant.Ventas.LogicaDeNegocio.AssemblyInfoInputs.cache
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.LogicaDeNegocio\obj\Debug\net6.0\NathRestaurant.Ventas.LogicaDeNegocio.AssemblyInfo.cs
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.LogicaDeNegocio\obj\Debug\net6.0\NathRestaurant.Ventas.LogicaDeNegocio.csproj.CoreCompileInputs.cache
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.LogicaDeNegocio\obj\Debug\net6.0\NathRestaurant.Ventas.LogicaDeNegocio.csproj.CopyComplete
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.LogicaDeNegocio\obj\Debug\net6.0\NathRestaurant.Ventas.LogicaDeNegocio.dll
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.LogicaDeNegocio\obj\Debug\net6.0\refint\NathRestaurant.Ventas.LogicaDeNegocio.dll
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.LogicaDeNegocio\obj\Debug\net6.0\NathRestaurant.Ventas.LogicaDeNegocio.pdb
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.LogicaDeNegocio\obj\Debug\net6.0\ref\NathRestaurant.Ventas.LogicaDeNegocio.dll

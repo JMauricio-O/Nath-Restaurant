@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "EfPTmwGTvLInnhKOdLoJ1vwRV3ZUWu8pCIR2KhrX8O0=",
+  "Source": "NathRestaurant.Ventas.WebAPI",
+  "BasePath": "_content/NathRestaurant.Ventas.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
