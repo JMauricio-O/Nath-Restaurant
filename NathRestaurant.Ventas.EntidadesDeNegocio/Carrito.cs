@@ -6,7 +6,7 @@ namespace NathRestaurant.Ventas.EntidadesDeNegocio
     public class Carrito
     {
         [Key]
-        public string Id { get; set; }
+        public int Id { get; set; }
 
         [ForeignKey("Producto")]
         public int IdProducto { get; set; }
@@ -14,6 +14,8 @@ namespace NathRestaurant.Ventas.EntidadesDeNegocio
         [ForeignKey("Cliente")]
         public int IdCliente { get; set; }
 
+        [NotMapped]
+        public int Top_Aux { get; set; }
         public Producto? Producto { get; set; }
 
         public Cliente? Cliente { get; set; }

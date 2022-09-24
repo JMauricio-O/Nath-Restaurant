@@ -13,3 +13,5 @@ C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaura
 C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.AccesoADatos\obj\Debug\net6.0\refint\NathRestaurant.Ventas.AccesoADatos.dll
 C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.AccesoADatos\obj\Debug\net6.0\NathRestaurant.Ventas.AccesoADatos.pdb
 C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.AccesoADatos\obj\Debug\net6.0\ref\NathRestaurant.Ventas.AccesoADatos.dll
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.AccesoADatos\bin\Debug\net6.0\NathRestaurant.Ventas.AccesoADatos.runtimeconfig.json
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.AccesoADatos\obj\Debug\net6.0\NathRestaurant.Ventas.AccesoADatos.genruntimeconfig.cache
