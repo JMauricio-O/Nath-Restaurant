@@ -1762,19 +1762,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\vinny\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Documents\\Nath\\NathRestaurant.Ventas.UI.WebApp\\NathRestaurant.Ventas.UI.WebApp.csproj",
+      "projectUniqueName": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\NathRestaurant.Ventas.UI.WebApp.csproj",
       "projectName": "NathRestaurant.Ventas.UI.WebApp",
-      "projectPath": "C:\\Users\\Admin\\Documents\\Nath\\NathRestaurant.Ventas.UI.WebApp\\NathRestaurant.Ventas.UI.WebApp.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Documents\\Nath\\NathRestaurant.Ventas.UI.WebApp\\obj\\",
+      "projectPath": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\NathRestaurant.Ventas.UI.WebApp.csproj",
+      "packagesPath": "C:\\Users\\vinny\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\vinny\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1782,6 +1787,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
