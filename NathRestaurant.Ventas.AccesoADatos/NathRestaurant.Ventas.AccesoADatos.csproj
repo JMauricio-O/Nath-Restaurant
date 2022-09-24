@@ -15,4 +15,8 @@
     <ProjectReference Include="..\NathRestaurant.Ventas.EntidadesDeNegocio\NathRestaurant.Ventas.EntidadesDeNegocio.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Documentos\" />
+  </ItemGroup>
+
 </Project>
