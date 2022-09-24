@@ -1946,24 +1946,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vinny\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.LogicaDeNegocio\\NathRestaurant.Ventas.LogicaDeNegocio.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Documents\\Nath\\NathRestaurant.Ventas.LogicaDeNegocio\\NathRestaurant.Ventas.LogicaDeNegocio.csproj",
       "projectName": "NathRestaurant.Ventas.LogicaDeNegocio",
-      "projectPath": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.LogicaDeNegocio\\NathRestaurant.Ventas.LogicaDeNegocio.csproj",
-      "packagesPath": "C:\\Users\\vinny\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.LogicaDeNegocio\\obj\\",
+      "projectPath": "C:\\Users\\Admin\\Documents\\Nath\\NathRestaurant.Ventas.LogicaDeNegocio\\NathRestaurant.Ventas.LogicaDeNegocio.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Admin\\Documents\\Nath\\NathRestaurant.Ventas.LogicaDeNegocio\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\vinny\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1971,18 +1966,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.AccesoADatos\\NathRestaurant.Ventas.AccesoADatos.csproj": {
-              "projectPath": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.AccesoADatos\\NathRestaurant.Ventas.AccesoADatos.csproj"
+            "C:\\Users\\Admin\\Documents\\Nath\\NathRestaurant.Ventas.AccesoADatos\\NathRestaurant.Ventas.AccesoADatos.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Documents\\Nath\\NathRestaurant.Ventas.AccesoADatos\\NathRestaurant.Ventas.AccesoADatos.csproj"
             },
-            "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.EntidadesDeNegocio\\NathRestaurant.Ventas.EntidadesDeNegocio.csproj": {
-              "projectPath": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.EntidadesDeNegocio\\NathRestaurant.Ventas.EntidadesDeNegocio.csproj"
+            "C:\\Users\\Admin\\Documents\\Nath\\NathRestaurant.Ventas.EntidadesDeNegocio\\NathRestaurant.Ventas.EntidadesDeNegocio.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Documents\\Nath\\NathRestaurant.Ventas.EntidadesDeNegocio\\NathRestaurant.Ventas.EntidadesDeNegocio.csproj"
             }
           }
         }
