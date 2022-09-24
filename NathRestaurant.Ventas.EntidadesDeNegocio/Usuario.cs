@@ -8,7 +8,9 @@ namespace NathRestaurant.Ventas.EntidadesDeNegocio
         [Key]
         public int Id { get; set; }
 
+        [Display(Name ="Rol")]
         [ForeignKey("Rol")]
+        [Required(ErrorMessage ="{0}es requerido")]
         public int IdRol { get; set; }
 
         [Display(Name = "Nombre")]
