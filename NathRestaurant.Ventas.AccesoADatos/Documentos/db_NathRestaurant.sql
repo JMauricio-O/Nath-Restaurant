@@ -25,7 +25,7 @@ constraint FK_ROL foreign key(IdRol)references Rol(Id)
 go
 
 create table Configuracion(
-Eecurso varchar(50),
+Recurso varchar(50),
 Propiedad varchar(50),
 Valor varchar(60)
 )
