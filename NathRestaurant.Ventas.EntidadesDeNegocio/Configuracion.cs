@@ -4,6 +4,9 @@ namespace NathRestaurant.Ventas.EntidadesDeNegocio
 {
     public class Configuracion
     {
+        [Key]
+        public int Id { get; set; }
+
         [Display(Name = "Nombre del recurso")]
         [MaxLength(50)]
         [Required(ErrorMessage ="{0} es obligatorio")]
