@@ -81,6 +81,7 @@ namespace NathRestaurant.Ventas.AccesoADatos
             {
                 pQuery = pQuery.Where(c => c.Valor.Contains(pConfiguracion.Valor));
             }
+            return pQuery;
         }
 
         public static async Task<List<Configuracion>> BuscarAsync(Configuracion pConfiguracion)
