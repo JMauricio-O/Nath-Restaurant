@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "r1wpfxPuO4GwfzDzHhnFQrBnwoUy02kuIyrPPu8GnWstNQ3o5di1eQ8VC6njDV9f7G9s1kjA4BKjq02IIsRKUQ==",
+  "dgSpecHash": "qc/ggjbCxntjvCC/GD0jPbpUZPOjd0V+/CsiPgOb071nX0NdkyzJXfSEJRVx2KlTTdnyF1444rUwv52G4qlULw==",
   "success": true,
   "projectFilePath": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\NathRestaurant.Ventas.UI.WebApp.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\vinny\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\6.0.8\\microsoft.aspnetcore.components.webassembly.6.0.8.nupkg.sha512",
     "C:\\Users\\vinny\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.devserver\\6.0.8\\microsoft.aspnetcore.components.webassembly.devserver.6.0.8.nupkg.sha512",
     "C:\\Users\\vinny\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.8\\microsoft.aspnetcore.metadata.6.0.8.nupkg.sha512",
+    "C:\\Users\\vinny\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\vinny\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0\\microsoft.extensions.configuration.6.0.0.nupkg.sha512",
     "C:\\Users\\vinny\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\vinny\\.nuget\\packages\\microsoft.extensions.configuration.binder\\6.0.0\\microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512",
@@ -26,11 +27,16 @@
     "C:\\Users\\vinny\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
     "C:\\Users\\vinny\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\vinny\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\vinny\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.8.0\\microsoft.identitymodel.jsonwebtokens.6.8.0.nupkg.sha512",
+    "C:\\Users\\vinny\\.nuget\\packages\\microsoft.identitymodel.logging\\6.8.0\\microsoft.identitymodel.logging.6.8.0.nupkg.sha512",
+    "C:\\Users\\vinny\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.8.0\\microsoft.identitymodel.tokens.6.8.0.nupkg.sha512",
     "C:\\Users\\vinny\\.nuget\\packages\\microsoft.jsinterop\\6.0.8\\microsoft.jsinterop.6.0.8.nupkg.sha512",
     "C:\\Users\\vinny\\.nuget\\packages\\microsoft.jsinterop.webassembly\\6.0.8\\microsoft.jsinterop.webassembly.6.0.8.nupkg.sha512",
     "C:\\Users\\vinny\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\vinny\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.8.0\\system.identitymodel.tokens.jwt.6.8.0.nupkg.sha512",
     "C:\\Users\\vinny\\.nuget\\packages\\system.io.pipelines\\6.0.3\\system.io.pipelines.6.0.3.nupkg.sha512",
     "C:\\Users\\vinny\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\vinny\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
     "C:\\Users\\vinny\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\vinny\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
     "C:\\Users\\vinny\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.8\\microsoft.netcore.app.runtime.mono.browser-wasm.6.0.8.nupkg.sha512"
