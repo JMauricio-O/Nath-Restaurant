@@ -1,18 +1,57 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.OpenApi.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+builder.Services.AddCors();
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.IgnoreReadOnlyFields = true;
+        options.JsonSerializerOptions.WriteIndented = true;
+    });
 
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(n=>
+{
+    n.SwaggerDoc("v1", new OpenApiInfo { Title = "Nath.Restaurant.Ventas.WebAPI", Version = "v1" });
+
+    var jwtSecurityScheme = new OpenApiSecurityScheme
+    {
+        Scheme = "bearer",
+        BearerFormat = "JWT",
+        Name = "JWT Authentication",
+        In = ParameterLocation.Header,
+        Type = SecuritySchemeType.Http,
+        Description = "Ingresar tu token de JWT Authentication",
+
+        Reference=new OpenApiReference
+        {
+            Id=JwtBearerDefaults.AuthenticationScheme,
+            Type=ReferenceType.SecurityScheme
+        }
+    };
+    n.AddSecurityDefinition(jwtSecurityScheme.Reference.Id, jwtSecurityScheme);
+    n.AddSecurityRequirement(new OpenApiSecurityRequirement { { jwtSecurityScheme, Array.Empty<string>() } });
+});
+
+var key = "nathR";
+builder.Services.AddAuthentication(x=>
+{
+    x.DefaultAuthenticateScheme=JwtBearerDefaults.AuthenticationScheme;
+    x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+})
+.AddJwtBearer(x =>
+{
+
+})
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
+
     app.UseSwaggerUI();
 }
 
