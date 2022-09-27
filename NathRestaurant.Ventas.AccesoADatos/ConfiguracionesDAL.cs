@@ -5,6 +5,7 @@ namespace NathRestaurant.Ventas.AccesoADatos
 {
     public class ConfiguracionesDAL
     {
+
         public static async Task<int> AgregarAsync(Configuracion pConfiguracion)
         {
             int resul = 0;

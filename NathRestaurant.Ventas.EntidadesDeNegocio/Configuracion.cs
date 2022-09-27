@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace NathRestaurant.Ventas.EntidadesDeNegocio
 {
@@ -21,5 +22,8 @@ namespace NathRestaurant.Ventas.EntidadesDeNegocio
         [MaxLength(60)]
         [Required(ErrorMessage = "{0} es obligatorio")]
         public string? Valor { get; set; }
+
+        [NotMapped]
+        public int Top_Aux { get; set; }
     }
 }
