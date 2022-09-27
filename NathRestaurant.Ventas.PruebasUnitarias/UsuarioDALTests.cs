@@ -6,7 +6,7 @@ namespace NathRestaurant.Ventas.AccesoADatos.Tests
     [TestClass()]
     public class UsuarioDALTests
     {
-        private static Usuario usuarioInicial = new Usuario { Id = 19, IdRol = 1,Carnet = "12331o", Contrasenia = "vinny123"   };
+        private static Usuario usuarioInicial = new Usuario { Id = 20, IdRol = 1,Carnet = "12331o", Contrasenia = "vinny123"   };
 
         [TestMethod()]
         public async Task T1CrearAsyncTest()

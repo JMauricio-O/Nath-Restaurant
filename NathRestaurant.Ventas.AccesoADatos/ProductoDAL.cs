@@ -31,7 +31,7 @@ namespace NathRestaurant.Ventas.AccesoADatos
                 producto.RutaImagen = pProducto.RutaImagen;
                 producto.Precio = producto.Precio;
                 producto.Estado = pProducto.Estado;
-                dbContext.Producto.Update(producto);
+                dbContext.Update(producto);
                 resul = await dbContext.SaveChangesAsync();
             }
             return resul;
@@ -43,6 +43,7 @@ namespace NathRestaurant.Ventas.AccesoADatos
             using (var dbContext = new DBContext())
             {
                 var producto = await dbContext.Producto.FirstOrDefaultAsync(p => p.Id == pProducto.Id);
+                dbContext.Remove(producto);
                 resul = await dbContext.SaveChangesAsync();
             }
             return resul;
