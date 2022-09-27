@@ -1,5 +1,8 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using NathRestaurant.Ventas.UI.WebApp.Auth;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,7 +10,7 @@ builder.Services.AddCors();
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
     {
-        options.JsonSerializerOptions.IgnoreReadOnlyFields = true;
+        options.JsonSerializerOptions.IgnoreNullValues = true;
         options.JsonSerializerOptions.WriteIndented = true;
     });
 
@@ -36,18 +39,33 @@ builder.Services.AddSwaggerGen(n=>
 });
 
 var key = "nathR";
-builder.Services.AddAuthentication(x=>
+builder.Services.AddAuthentication(x =>
 {
-    x.DefaultAuthenticateScheme=JwtBearerDefaults.AuthenticationScheme;
+    x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
     x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
 })
 .AddJwtBearer(x =>
 {
+    x.RequireHttpsMetadata = false;
+    x.SaveToken = true;
+    x.TokenValidationParameters = new TokenValidationParameters
+    {
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(key)),
+        ValidateAudience = false,
+        ValidateIssuerSigningKey = true,
+        ValidateIssuer = false
+    };
 
-})
+});
+builder.Services.AddSingleton<IJwtAuthenticationService>(new JwtAuthenticationService(key));
 
 var app = builder.Build();
-
+app.UseCors(option =>
+{
+    option.WithOrigins("*");
+    option.AllowAnyMethod();
+    option.AllowAnyHeader();
+});
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -56,7 +74,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

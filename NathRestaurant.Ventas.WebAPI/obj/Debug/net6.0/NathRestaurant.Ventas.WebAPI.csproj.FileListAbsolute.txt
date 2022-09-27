@@ -63,3 +63,13 @@ C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaura
 C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.WebAPI\obj\Debug\net6.0\NathRestaurant.Ventas.WebAPI.pdb
 C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.WebAPI\obj\Debug\net6.0\NathRestaurant.Ventas.WebAPI.genruntimeconfig.cache
 C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.WebAPI\obj\Debug\net6.0\ref\NathRestaurant.Ventas.WebAPI.dll
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.WebAPI\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.WebAPI\bin\Debug\net6.0\EntityFramework.dll
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.WebAPI\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.WebAPI\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.WebAPI\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.WebAPI\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.WebAPI\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.WebAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.WebAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

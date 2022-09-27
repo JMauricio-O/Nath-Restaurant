@@ -5,7 +5,7 @@ namespace NathRestaurant.Ventas.AccesoADatos.Tests
     [TestClass()]
     public class RolDALTests
     {
-        public static Rol rolInicial = new Rol { Id = 4 };
+        public static Rol rolInicial = new Rol { Id = 2 };
 
         [TestMethod()]
         public async Task T1AgregarAsyncTest()

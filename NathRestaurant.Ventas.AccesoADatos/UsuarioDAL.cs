@@ -7,6 +7,7 @@ namespace NathRestaurant.Ventas.AccesoADatos
 {
     public class UsuarioDAL
     {
+
         public static void EncriptarMD5(Usuario pUsuario)
         {
             using (var md5 = MD5.Create())
@@ -33,7 +34,7 @@ namespace NathRestaurant.Ventas.AccesoADatos
         #region CRUD
 
 
-        public async Task<int> CrearAsync(Usuario pUsuario)
+        public static async Task<int> CrearAsync(Usuario pUsuario)
         {
             int resul = 0;
             using (var dbContext = new DBContext())
@@ -111,6 +112,10 @@ namespace NathRestaurant.Ventas.AccesoADatos
 
         internal static IQueryable<Usuario> QuerySelect(IQueryable<Usuario> pQuery, Usuario pUsuario)
         {
+            if (pUsuario.Id>0)
+            {
+                pQuery = pQuery.Where(u => u.Id == pUsuario.Id);
+            }
             if (pUsuario.IdRol > 0)
             {
                 pQuery = pQuery.Where(u => u.IdRol == pUsuario.IdRol);
@@ -123,13 +128,13 @@ namespace NathRestaurant.Ventas.AccesoADatos
             {
                 pQuery = pQuery.Where(u => u.Apellido.Contains(pUsuario.Apellido));
             }
-            if (!string.IsNullOrWhiteSpace(pUsuario.Carnet))
-            {
-                pQuery = pQuery.Where(u => u.Carnet.Contains(pUsuario.Carnet));
-            }
             if (!string.IsNullOrWhiteSpace(pUsuario.Contacto))
             {
                 pQuery = pQuery.Where(u => u.Contacto.Contains(pUsuario.Contacto));
+            }
+            if (!string.IsNullOrWhiteSpace(pUsuario.Carnet))
+            {
+                pQuery = pQuery.Where(u => u.Carnet.Contains(pUsuario.Carnet));
             }
             if (pUsuario.FechaRegistro.Year > 1000)
             {
@@ -139,7 +144,7 @@ namespace NathRestaurant.Ventas.AccesoADatos
             }
             if (pUsuario.Estado > 0)
             {
-                pQuery = pQuery.Where(u => u.Id == pUsuario.Id);
+                pQuery = pQuery.Where(u => u.Estado == pUsuario.Estado);
             }
 
             pQuery = pQuery.OrderByDescending(u => u.Id).AsQueryable();
@@ -179,8 +184,8 @@ namespace NathRestaurant.Ventas.AccesoADatos
             using (var bdContext = new DBContext())
             {
                 EncriptarMD5(pUsuario);
-                usuario = await bdContext.Usuario.FirstOrDefaultAsync(s => s.Carnet == pUsuario.Carnet &&
-                s.Contrasenia == pUsuario.Contrasenia && s.Estado == (byte)Enums.Estado.ACTIVO); 
+                usuario = await bdContext.Usuario.FirstOrDefaultAsync(u => u.Carnet == pUsuario.Carnet &&
+                u.Contrasenia == pUsuario.Contrasenia); 
             }
             return usuario;
         }
