@@ -5,7 +5,7 @@ namespace NathRestaurant.Ventas.AccesoADatos.Tests
     [TestClass()]
     public class ConfiguracionesDALTests
     {
-        private static Configuracion configuracionInicial = new Configuracion { Id = 2 };
+        private static Configuracion configuracionInicial = new Configuracion { Id = 4 };
 
         [TestMethod()]
         public async Task T1AgregarAsyncTest()
