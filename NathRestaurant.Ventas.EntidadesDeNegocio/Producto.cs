@@ -9,7 +9,9 @@ namespace NathRestaurant.Ventas.EntidadesDeNegocio
         [Key]
         public int Id { get; set; }
 
+        [Display(Name = "Categoria")]
         [ForeignKey("Categoria")]
+        [Required(ErrorMessage ="{0} es obligatorio")]
         public int IdCategoria { get; set; }
 
         [Display(Name = "Nombre")]
@@ -33,7 +35,7 @@ namespace NathRestaurant.Ventas.EntidadesDeNegocio
 
         [Display(Name = "Precio del Producto")]
         [Required(ErrorMessage = "{0} es requerido")]
-        public double Precio { get; set; }
+        public decimal Precio { get; set; }
 
         public DateTime FechaRegistro { get; set; }
 

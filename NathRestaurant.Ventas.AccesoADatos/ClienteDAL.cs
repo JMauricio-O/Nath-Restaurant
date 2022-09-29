@@ -29,7 +29,7 @@ namespace NathRestaurant.Ventas.AccesoADatos
             }
             return result;
         }
-
+        #region CRUD
         public static async Task<int> AgregarAsync(Cliente pCliente)
         {
             int resul = 0;
@@ -39,6 +39,7 @@ namespace NathRestaurant.Ventas.AccesoADatos
                 if (existeCorreo == false)
                 {
                     EncriptarMD5(pCliente);
+                    pCliente.FechaRegistro = DateTime.Now;
                     dbContext.Add(pCliente);
                     resul = await dbContext.SaveChangesAsync();
                 }
@@ -181,5 +182,6 @@ namespace NathRestaurant.Ventas.AccesoADatos
             }
             return result;
         }
+        #endregion
     }
 }
