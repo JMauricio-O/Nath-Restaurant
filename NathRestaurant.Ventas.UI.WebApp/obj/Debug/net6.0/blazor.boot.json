@@ -200,15 +200,15 @@
       "mscorlib.dll": "sha256-TYLzIm125RbnX9+RAPqJnwZhd6CnQpJcrjiMpJfZ720=",
       "netstandard.dll": "sha256-HhuK9zDkd1N7hODAEiNJ11VF8T54IgrM6hZfLHmHdqM=",
       "System.Private.CoreLib.dll": "sha256-dXaTqyg1PnXPiSwywpic1PVrd7P8Vb5tN0i0\/urdt3E=",
-      "NathRestaurant.Ventas.EntidadesDeNegocio.dll": "sha256-VZciKD6RPHJSjPVS4cA3f0epCTRGv6XJnua23GVMDyw=",
-      "NathRestaurant.Ventas.UI.WebApp.dll": "sha256-JEYqXBOVD953sWv3LSaOhX7vdd1NNEVlObCbnnvzKXE="
+      "NathRestaurant.Ventas.EntidadesDeNegocio.dll": "sha256-H53p5sr+sUd93wkCcu2tWOsXGsrTns9QBKm8YyOpzAk=",
+      "NathRestaurant.Ventas.UI.WebApp.dll": "sha256-1SpO8ZALfTf\/RIrqk8duXviKHYTv+W36JGQtV+xQCpo="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "NathRestaurant.Ventas.EntidadesDeNegocio.pdb": "sha256-tgxf7NeCOE70ON0YhGzrbYiPk1Fs0suAixap\/6Xfl1M=",
-      "NathRestaurant.Ventas.UI.WebApp.pdb": "sha256-CzZBC3UJ8+4P5w15JjMoDvEhiV05AuDvuVTLmbv7Nzo="
+      "NathRestaurant.Ventas.EntidadesDeNegocio.pdb": "sha256-dGGKQ4N2XYnNS5In34FZEYP3fjSGGno\/cf3ay4DsGZY=",
+      "NathRestaurant.Ventas.UI.WebApp.pdb": "sha256-zU\/V80eRUB7Ql6iGrabZrVVJnGnFjISLJCyVePx\/Hmg="
     },
     "runtime": {
       "dotnet.6.0.8.20dw3qiy4j.js": "sha256-WT60vnXnQtCNURE40qo+XSL1o4iYFvABy0NVaFhm7MI=",

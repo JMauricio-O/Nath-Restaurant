@@ -5,6 +5,7 @@ namespace NathRestaurant.Ventas.AccesoADatos
 {
     public class ProductoDAL
     {
+
         public static async Task<int> AgregarAsync(Producto pProducto)
         {
             int result = 0;
@@ -42,9 +43,8 @@ namespace NathRestaurant.Ventas.AccesoADatos
             int resul = 0;
             using (var dbContext = new DBContext())
             {
-                var producto = await dbContext.Producto
-                    .FirstOrDefaultAsync(p => p.Id == pProducto.Id);
-                dbContext.Remove(pProducto);
+                var producto = await dbContext.Producto.FirstOrDefaultAsync(p => p.Id == pProducto.Id);
+                dbContext.Remove(producto);
                 resul = await dbContext.SaveChangesAsync();
             }
             return resul;
@@ -71,7 +71,7 @@ namespace NathRestaurant.Ventas.AccesoADatos
             return producto;
         }
 
-        internal static IQueryable<Producto> QurySelect(IQueryable<Producto> pQuery, Producto pProducto)
+        internal static IQueryable<Producto> QuerySelect(IQueryable<Producto> pQuery, Producto pProducto)
         {
             if (pProducto.Id > 0)
             {
@@ -97,12 +97,8 @@ namespace NathRestaurant.Ventas.AccesoADatos
             {
                 pQuery = pQuery.Where(p => p.RutaImagen.Contains(pProducto.RutaImagen));
             }
-            if (pProducto.Precio>0)
-            {
-                pQuery = pQuery.Where(p => p.Precio == pProducto.Precio);
-            }
             if (pProducto.FechaRegistro.Year > 1000)
-            {
+            {   
                 DateTime fechaInicial = new DateTime(pProducto.FechaRegistro.Year, pProducto.FechaRegistro.Month, pProducto.FechaRegistro.Day, 0, 0, 0);
                 DateTime fechaFinal = fechaInicial.AddDays(1).AddMilliseconds(-1);
                 pQuery = pQuery.Where(s => s.FechaRegistro >= fechaInicial && s.FechaRegistro <= fechaFinal);
@@ -127,7 +123,7 @@ namespace NathRestaurant.Ventas.AccesoADatos
             using (var dbContext = new DBContext())
             {
                 var select = dbContext.Producto.AsQueryable();
-                select = QurySelect(select, pProducto);
+                select = QuerySelect(select, pProducto);
                 producto = await select.ToListAsync();
             }
             return producto;
@@ -139,7 +135,7 @@ namespace NathRestaurant.Ventas.AccesoADatos
             using (var dbContext = new DBContext())
             {
                 var select = dbContext.Producto.AsQueryable();
-                select = QurySelect(select, pProducto).Include(p=>p.Categoria).AsQueryable();
+                select = QuerySelect(select, pProducto).Include(p=>p.Categoria).AsQueryable();
                 producto = await select.ToListAsync();
             }
             return producto;
