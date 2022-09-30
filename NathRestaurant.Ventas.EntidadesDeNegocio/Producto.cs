@@ -45,5 +45,9 @@ namespace NathRestaurant.Ventas.EntidadesDeNegocio
         public int Top_Aux { get; set; }
 
         public Categoria? Categoria { get; set; }
+
+        public List<Combos>? Combos { get; set; }
+        public List<Carrito>? Carritos { get; set; }
+        public List<DetalleVenta>? DetalleVentas { get; set; }
     }
 }

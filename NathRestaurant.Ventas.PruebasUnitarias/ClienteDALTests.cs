@@ -5,7 +5,7 @@ namespace NathRestaurant.Ventas.AccesoADatos.Tests
     [TestClass()]
     public class ClienteDALTests
     {
-        private static Cliente clienteInicial = new Cliente { Id = 4, Correo = "or21001ts@esfe.agape.edu.sv", Contrasenia = "vinny123" };
+        private static Cliente clienteInicial = new Cliente { Id = 7, Correo = "prueba@gmail.com", Contrasenia = "12345678" };
 
         [TestMethod()]
         public async Task T1CrearAsyncTest()
@@ -13,7 +13,7 @@ namespace NathRestaurant.Ventas.AccesoADatos.Tests
             var cliente = new Cliente();
             cliente.Nombre = "Aura";
             cliente.Apellido = "Minero";
-            cliente.Correo = "prueba@gmail.com";
+            cliente.Correo = "prwuebas@gmail.com";
             string password = "12345678";
             cliente.Contrasenia = password;
             int result = await ClienteDAL.AgregarAsync(cliente);
@@ -28,9 +28,9 @@ namespace NathRestaurant.Ventas.AccesoADatos.Tests
         {
             var cliente = new Cliente();
             cliente.Id = clienteInicial.Id;
-            cliente.Nombre = "Aura Sth";
+            cliente.Nombre = "AuraSth";
             cliente.Apellido = "Peña Minero";
-            cliente.Correo = "prueba@gmail.com";
+            cliente.Correo = "prueba011@gmail.com";
             int result = await ClienteDAL.ModificarAsync(cliente);
             Assert.AreNotEqual(0, result);
             clienteInicial.Correo = cliente.Correo;
@@ -55,21 +55,9 @@ namespace NathRestaurant.Ventas.AccesoADatos.Tests
         public async Task T5BuscarAsyncTest()
         {
             var cliente = new Cliente();
-            cliente.Nombre = "s";
-            cliente.Apellido = "s";
-            cliente.Correo = "0";
-            cliente.Top_Aux = 10;
-            var resultCliente = await ClienteDAL.Buscar(cliente);
-            Assert.AreNotEqual(0, resultCliente.Count);
-        }
-
-        [TestMethod()]
-        public async Task T6BuscarIncluirRolesTest()
-        {
-            var cliente = new Cliente();
-            cliente.Nombre = "s";
-            cliente.Apellido = "s";
-            cliente.Correo = "0";
+            cliente.Nombre = "A";
+            cliente.Apellido = "M";
+            cliente.Correo = "p";
             cliente.Top_Aux = 10;
             var resultCliente = await ClienteDAL.Buscar(cliente);
             Assert.AreNotEqual(0, resultCliente.Count);
@@ -98,13 +86,6 @@ namespace NathRestaurant.Ventas.AccesoADatos.Tests
         }
 
 
-        [TestMethod()]
-        public async Task T9EliminarAsyncTest()
-        {
-            var cliente = new Cliente();
-            cliente.Id = clienteInicial.Id;
-            int result = await ClienteDAL.EliminarAsync(cliente);
-            Assert.AreNotEqual(0, result);
-        }
+      
     }
 }

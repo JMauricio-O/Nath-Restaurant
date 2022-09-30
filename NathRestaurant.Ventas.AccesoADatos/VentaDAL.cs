@@ -57,7 +57,7 @@ namespace NathRestaurant.Ventas.AccesoADatos
             return venta;
         }
 
-        public static async Task<List<Venta>> ObtenerTodosAsync(Venta pVenta)
+        public static async Task<List<Venta>> ObtenerTodosAsync()
         {
             var venta = new List<Venta>();
             using (var dbContext = new DBContext())
@@ -73,26 +73,32 @@ namespace NathRestaurant.Ventas.AccesoADatos
             {
                 pQuery = pQuery.Where(v => v.Id == pVenta.Id);
             }
+
             if (pVenta.IdDetalleVenta > 0)
             {
                 pQuery = pQuery.Where(v => v.IdDetalleVenta == pVenta.IdDetalleVenta);
             }
+
             if (pVenta.IdCliente > 0)
             {
                 pQuery = pQuery.Where(v => v.IdCliente == pVenta.IdCliente);
             }
+
             if (!string.IsNullOrWhiteSpace(pVenta.Contacto))
             {
                 pQuery = pQuery.Where(v => v.Contacto.Contains(pVenta.Contacto));
             }
+
             if (pVenta.TotalProducto > 0)
             {
                 pQuery = pQuery.Where(v => v.TotalProducto == pVenta.TotalProducto);
             }
+
             if (!string.IsNullOrWhiteSpace(pVenta.Direccion))
             {
                 pQuery = pQuery.Where(v => v.Direccion.Contains(pVenta.Direccion));
             }
+
             if (pVenta.IdTransaccion > 0)
             {
                 pQuery = pQuery.Where(v => v.IdTransaccion == pVenta.IdTransaccion);
@@ -107,7 +113,7 @@ namespace NathRestaurant.Ventas.AccesoADatos
                 DateTime fechaFinal = fechaInicial.AddDays(1).AddMilliseconds(-1);
                 pQuery = pQuery.Where(s => s.FechaRegistro >= fechaInicial && s.FechaRegistro <= fechaFinal);
             }
-            pQuery = pQuery.OrderByDescending(v => v.Id == pVenta.Id).AsQueryable();
+            pQuery = pQuery.OrderByDescending(v => v.Id).AsQueryable();
             if (pVenta.Top_Aux > 0)
             {
                 pQuery = pQuery.Take(pVenta.Top_Aux).AsQueryable();
@@ -126,6 +132,7 @@ namespace NathRestaurant.Ventas.AccesoADatos
             }
             return venta;
         }
+
         public static async Task<List<Venta>> BuscarIncluirTodosAsync(Venta pVenta)
         {
             var venta = new List<Venta>();

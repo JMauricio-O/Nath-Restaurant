@@ -24,16 +24,16 @@ namespace NathRestaurant.Ventas.EntidadesDeNegocio
 
         [Display(Name = "Total Producto")]
         [Required(ErrorMessage = "{0} es obligatorio")]
-        public double TotalProducto { get; set; }
+        public decimal?  TotalProducto { get; set; }
 
         [Display(Name = "Direccion")]
         [MaxLength(75, ErrorMessage = "{0} debe tener maximo {1} caracteres")]
         [Required(ErrorMessage = "{0} es obligatorio")]
         public string? Direccion { get; set; }
 
-        public double IdTransaccion { get; set; }
+        public decimal IdTransaccion { get; set; }
 
-        public double MontoTotal { get; set; }
+        public decimal MontoTotal { get; set; }
 
         public DateTime FechaRegistro { get; set; }
 

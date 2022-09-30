@@ -877,19 +877,19 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-VZciKD6RPHJSjPVS4cA3f0epCTRGv6XJnua23GVMDyw=",
+      "hash": "sha256-H53p5sr+sUd93wkCcu2tWOsXGsrTns9QBKm8YyOpzAk=",
       "url": "_framework\/NathRestaurant.Ventas.EntidadesDeNegocio.dll"
     },
     {
-      "hash": "sha256-tgxf7NeCOE70ON0YhGzrbYiPk1Fs0suAixap\/6Xfl1M=",
+      "hash": "sha256-dGGKQ4N2XYnNS5In34FZEYP3fjSGGno\/cf3ay4DsGZY=",
       "url": "_framework\/NathRestaurant.Ventas.EntidadesDeNegocio.pdb"
     },
     {
-      "hash": "sha256-JEYqXBOVD953sWv3LSaOhX7vdd1NNEVlObCbnnvzKXE=",
+      "hash": "sha256-1SpO8ZALfTf\/RIrqk8duXviKHYTv+W36JGQtV+xQCpo=",
       "url": "_framework\/NathRestaurant.Ventas.UI.WebApp.dll"
     },
     {
-      "hash": "sha256-CzZBC3UJ8+4P5w15JjMoDvEhiV05AuDvuVTLmbv7Nzo=",
+      "hash": "sha256-zU\/V80eRUB7Ql6iGrabZrVVJnGnFjISLJCyVePx\/Hmg=",
       "url": "_framework\/NathRestaurant.Ventas.UI.WebApp.pdb"
     },
     {
@@ -897,9 +897,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-mminUjAu1BbBPMj1EOOLoWZ0JQfHzKawc1fwEjh32x4=",
+      "hash": "sha256-q0iumo3cbxSXc9KDvi0Sk+d3Esjl\/WXLH1x2XjpnGbE=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "NkyKZyLB"
+  "version": "KdskJfbb"
 };

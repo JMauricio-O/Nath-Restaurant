@@ -5,6 +5,7 @@ namespace NathRestaurant.Ventas.AccesoADatos
 {
     public class CombosDAL
     {
+
         public static async Task<int> AgregarAsync(Combos pCombos)
         {
             int resul = 0;
@@ -51,12 +52,12 @@ namespace NathRestaurant.Ventas.AccesoADatos
 
         public static async Task<Combos> ObtenerPorIdAsync(Combos pCombos)
         {
-            var combos = new Combos();
+            var combo = new Combos();
             using (var dbContext = new DBContext())
             {
-                combos = await dbContext.Combos.FirstOrDefaultAsync(c => c.Id == pCombos.Id);
+                combo = await dbContext.Combos.FirstOrDefaultAsync(c => c.Id == pCombos.Id);
             }
-            return combos;
+            return combo;
         }
 
         public static async Task<List<Combos>> ObtenerTodosAsync()

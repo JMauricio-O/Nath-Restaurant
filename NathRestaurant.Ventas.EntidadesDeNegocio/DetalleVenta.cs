@@ -17,11 +17,13 @@ namespace NathRestaurant.Ventas.EntidadesDeNegocio
         public int Cantidad { get; set; }
 
         [Required]
-        public double Subtotal { get; set; }
+        public decimal Subtotal { get; set; }
 
         [NotMapped]
         public int Top_Aux { get; set; }
 
         public Producto? Producto { get; set; }
+
+        public List<DetalleVenta>? DetalleVentas { get; set; }
     }
 }
