@@ -1,12 +1,48 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace NathRestaurant.Ventas.PruebasUnitarias
+﻿namespace NathRestaurant.Ventas.AccesoADatos.Tests
 {
-    internal class CarritoDALTests
+    [TestClass()]
+    public class CarritoDALTests
     {
+        [TestMethod()]
+        public void AgregarAsyncTest()
+        {
+            Assert.Fail();
+        }
+
+        [TestMethod()]
+        public void ModificarAsyncTest()
+        {
+            Assert.Fail();
+        }
+
+        [TestMethod()]
+        public void EliminarAsyncTest()
+        {
+            Assert.Fail();
+        }
+
+        [TestMethod()]
+        public void ObtenerPorIdAsyncTest()
+        {
+            Assert.Fail();
+        }
+
+        [TestMethod()]
+        public void ObtenerTodosAsyncTest()
+        {
+            Assert.Fail();
+        }
+
+        [TestMethod()]
+        public void BuscarAsyncTest()
+        {
+            Assert.Fail();
+        }
+
+        [TestMethod()]
+        public void BuscarTodosAsyncTest()
+        {
+            Assert.Fail();
+        }
     }
 }
