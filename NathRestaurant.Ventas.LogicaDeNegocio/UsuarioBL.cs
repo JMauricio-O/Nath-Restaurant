@@ -29,6 +29,10 @@ namespace NathRestaurant.Ventas.LogicaDeNegocio
         {
             return await UsuarioDAL.BuscarAsync(pUsuario);
         }
+        public async Task<List<Usuario>> BuscarIncluirRolesAsync(Usuario pUsuario)
+        {
+            return await UsuarioDAL.BuscarIncluirRoles(pUsuario);
+        }
         public async Task<Usuario> Login(Usuario pUsuario)
         {
             return await UsuarioDAL.Login(pUsuario);

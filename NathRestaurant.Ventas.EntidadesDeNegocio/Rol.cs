@@ -16,6 +16,6 @@ namespace NathRestaurant.Ventas.EntidadesDeNegocio
         [NotMapped]
         public int Top_Aux { get; set; }
 
-        public List<Usuario>? Usuarios { get; set; }
+        public List<Usuario>? Usuario { get; set; }
     }
 }

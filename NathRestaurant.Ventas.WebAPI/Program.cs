@@ -38,7 +38,7 @@ builder.Services.AddSwaggerGen(n=>
     n.AddSecurityRequirement(new OpenApiSecurityRequirement { { jwtSecurityScheme, Array.Empty<string>() } });
 });
 
-var key = "nathR";
+var key = "Natha1234-Rami09876-Lemm09";
 builder.Services.AddAuthentication(x =>
 {
     x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;

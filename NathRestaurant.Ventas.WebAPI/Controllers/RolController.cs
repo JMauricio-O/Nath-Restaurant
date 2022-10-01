@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using NathRestaurant.Ventas.EntidadesDeNegocio;
 using NathRestaurant.Ventas.LogicaDeNegocio;
 using System.Text.Json;
@@ -7,6 +8,7 @@ namespace NathRestaurant.Ventas.WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class RolController : ControllerBase
     {
         private RolBL _rolBL = new RolBL();
