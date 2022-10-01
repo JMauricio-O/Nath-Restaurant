@@ -7,5 +7,6 @@ namespace NathRestaurant.Ventas.WebAPI.Controllers
     [ApiController]
     public class ClienteController : ControllerBase
     {
+
     }
 }

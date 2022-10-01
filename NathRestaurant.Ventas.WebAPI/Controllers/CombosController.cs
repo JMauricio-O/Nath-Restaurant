@@ -79,7 +79,9 @@ namespace NathRestaurant.Ventas.WebAPI.Controllers
             var option = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
             string strCombos = JsonSerializer.Serialize(pCombos);
             Combos combos = JsonSerializer.Deserialize<Combos>(strCombos, option);
-            return await _combosBL.BuscarAsync(combos);
+            var combosC = await _combosBL.BuscarIncluirProductoAsync(combos);
+            combosC.ForEach(c => c.Producto.Combos = null);
+            return combosC;
         }
     }
 }
