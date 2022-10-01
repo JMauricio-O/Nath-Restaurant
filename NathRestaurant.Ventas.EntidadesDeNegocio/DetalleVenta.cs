@@ -24,6 +24,6 @@ namespace NathRestaurant.Ventas.EntidadesDeNegocio
 
         public Producto? Producto { get; set; }
 
-        public List<DetalleVenta>? DetalleVentas { get; set; }
+        public List<Venta> Venta { get; set; }
     }
 }
