@@ -19,7 +19,7 @@ namespace NathRestaurant.Ventas.LogicaDeNegocio
         }
         public async Task<Venta> ObtenerPorIdAsync(Venta pVenta)
         {
-            return await VentaDAL.ObtenerPorIdAsync(Venta pVenta)
+            return await VentaDAL.ObtenerPorIdAsync(pVenta);
         }
         public async Task<List<Venta>> ObtenerTodosAsync()
         {
