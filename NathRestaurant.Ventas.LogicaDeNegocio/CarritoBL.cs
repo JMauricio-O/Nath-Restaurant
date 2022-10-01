@@ -29,5 +29,9 @@ namespace NathRestaurant.Ventas.LogicaDeNegocio
         {
             return await CarritoDAL.BuscarAsync(pCarrito);
         }
+        public async Task<List<Carrito>> BuscarTodosAsync(Carrito pCarrito)
+        {
+            return await CarritoDAL.BuscarTodosAsync(pCarrito);
+        }
     }
 }
