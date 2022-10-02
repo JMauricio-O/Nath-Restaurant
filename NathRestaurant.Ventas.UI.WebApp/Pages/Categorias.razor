@@ -1,0 +1,42 @@
+﻿@page "/categorias"
+@using NathRestaurant.Ventas.UI.WebApp.Models;
+@using NathRestaurant.Ventas.UI.WebApp.Services;
+@inject ICategoriaService CategoriaService;
+
+<h3>Categorias</h3>
+
+
+@if (categ == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var categoria in categ)
+            {
+                <tr>
+                    <td>@categoria.Id</td>
+                    <td>@categoria.Nombre</td>
+                    <td>editar,eliminar,borrar</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    IEnumerable<Categoria> categ = new List<Categoria>();
+    protected override async Task OnInitializedAsync()
+    {
+        categ = await CategoriaService.GetAll();
+    }
+}

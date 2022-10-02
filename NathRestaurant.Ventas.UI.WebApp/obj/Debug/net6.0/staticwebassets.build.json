@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tT930ttsgcJEgNlKesHrghPAfylAK4/rllRVjCasS4U=",
+  "Hash": "09WLzP0MeI3hXXt2CG2dy+2MUhzj+nz9Zz3aKWEtox8=",
   "Source": "NathRestaurant.Ventas.UI.WebApp",
   "BasePath": "/",
   "Mode": "Root",
@@ -16,6 +16,40 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\vinny\\.nuget\\packages\\mudblazor\\6.0.16\\staticwebassets\\MudBlazor.min.css",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\vinny\\.nuget\\packages\\mudblazor\\6.0.16\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\vinny\\.nuget\\packages\\mudblazor\\6.0.16\\staticwebassets\\MudBlazor.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\vinny\\.nuget\\packages\\mudblazor\\6.0.16\\staticwebassets\\MudBlazor.min.js",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\vinny\\.nuget\\packages\\mudblazor\\6.0.16\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\vinny\\.nuget\\packages\\mudblazor\\6.0.16\\staticwebassets\\MudBlazor.min.js"
+    },
     {
       "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.boot.json",
       "SourceId": "NathRestaurant.Ventas.UI.WebApp",
@@ -184,7 +218,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\vinny\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.8\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
+      "OriginalItemSpec": "C:\\Users\\vinny\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.9\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
     },
     {
       "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
@@ -201,7 +235,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\vinny\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.8\\lib\\net6.0\\Microsoft.AspNetCore.Components.dll"
+      "OriginalItemSpec": "C:\\Users\\vinny\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.9\\lib\\net6.0\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
@@ -218,7 +252,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\vinny\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\6.0.8\\lib\\net6.0\\Microsoft.AspNetCore.Components.Forms.dll"
+      "OriginalItemSpec": "C:\\Users\\vinny\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\6.0.9\\lib\\net6.0\\Microsoft.AspNetCore.Components.Forms.dll"
     },
     {
       "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll",
@@ -235,7 +269,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\vinny\\.nuget\\packages\\microsoft.aspnetcore.components.web\\6.0.8\\lib\\net6.0\\Microsoft.AspNetCore.Components.Web.dll"
+      "OriginalItemSpec": "C:\\Users\\vinny\\.nuget\\packages\\microsoft.aspnetcore.components.web\\6.0.9\\lib\\net6.0\\Microsoft.AspNetCore.Components.Web.dll"
     },
     {
       "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.dll",
@@ -269,7 +303,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\vinny\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.8\\lib\\net6.0\\Microsoft.AspNetCore.Metadata.dll"
+      "OriginalItemSpec": "C:\\Users\\vinny\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.9\\lib\\net6.0\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.CSharp.dll",
@@ -473,7 +507,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\vinny\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\lib\\net6.0\\Microsoft.Extensions.Logging.Abstractions.dll"
+      "OriginalItemSpec": "C:\\Users\\vinny\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.2\\lib\\net6.0\\Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
       "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll",
@@ -592,7 +626,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\vinny\\.nuget\\packages\\microsoft.jsinterop\\6.0.8\\lib\\net6.0\\Microsoft.JSInterop.dll"
+      "OriginalItemSpec": "C:\\Users\\vinny\\.nuget\\packages\\microsoft.jsinterop\\6.0.9\\lib\\net6.0\\Microsoft.JSInterop.dll"
     },
     {
       "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.dll",
@@ -695,6 +729,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\vinny\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.8\\runtimes\\browser-wasm\\lib\\net6.0\\mscorlib.dll"
+    },
+    {
+      "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MudBlazor.dll",
+      "SourceId": "NathRestaurant.Ventas.UI.WebApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/MudBlazor.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\vinny\\.nuget\\packages\\mudblazor\\6.0.16\\lib\\net6.0\\MudBlazor.dll"
     },
     {
       "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\NathRestaurant.Ventas.EntidadesDeNegocio.dll",
@@ -3587,6 +3638,23 @@
       "OriginalItemSpec": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.FileSystem.Primitives.dll"
     },
     {
+      "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\obj\\Debug\\net6.0\\build-gz\\+MHfd2kZ.gz",
+      "SourceId": "NathRestaurant.Ventas.UI.WebApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
+    },
+    {
       "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\obj\\Debug\\net6.0\\build-gz\\+RDEF1xa.gz",
       "SourceId": "NathRestaurant.Ventas.UI.WebApp",
       "SourceType": "Computed",
@@ -4029,23 +4097,6 @@
       "OriginalItemSpec": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Private.Uri.dll"
     },
     {
-      "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\obj\\Debug\\net6.0\\build-gz\\8LRXh+ey.gz",
-      "SourceId": "NathRestaurant.Ventas.UI.WebApp",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Forms.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll"
-    },
-    {
       "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\obj\\Debug\\net6.0\\build-gz\\8Qdue0aj.gz",
       "SourceId": "NathRestaurant.Ventas.UI.WebApp",
       "SourceType": "Computed",
@@ -4403,23 +4454,6 @@
       "OriginalItemSpec": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.Primitives.dll"
     },
     {
-      "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\obj\\Debug\\net6.0\\build-gz\\C4NKtqpd.gz",
-      "SourceId": "NathRestaurant.Ventas.UI.WebApp",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.JSInterop.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll"
-    },
-    {
       "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\obj\\Debug\\net6.0\\build-gz\\cDRvPqe8.gz",
       "SourceId": "NathRestaurant.Ventas.UI.WebApp",
       "SourceType": "Computed",
@@ -4539,6 +4573,23 @@
       "OriginalItemSpec": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Text.RegularExpressions.dll"
     },
     {
+      "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\obj\\Debug\\net6.0\\build-gz\\Dat1qWMO.gz",
+      "SourceId": "NathRestaurant.Ventas.UI.WebApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Web.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll"
+    },
+    {
       "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\obj\\Debug\\net6.0\\build-gz\\dDB7mniy.gz",
       "SourceId": "NathRestaurant.Ventas.UI.WebApp",
       "SourceType": "Computed",
@@ -4607,21 +4658,21 @@
       "OriginalItemSpec": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Threading.Tasks.dll"
     },
     {
-      "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\obj\\Debug\\net6.0\\build-gz\\eAUuCWUx.gz",
+      "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\obj\\Debug\\net6.0\\build-gz\\e87a9Und.gz",
       "SourceId": "NathRestaurant.Ventas.UI.WebApp",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
+      "RelativePath": "_framework/Microsoft.JSInterop.dll.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
+      "RelatedAsset": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
+      "OriginalItemSpec": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll"
     },
     {
       "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\obj\\Debug\\net6.0\\build-gz\\EF+Kpt+D.gz",
@@ -4656,6 +4707,40 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Private.Runtime.InteropServices.JavaScript.dll"
+    },
+    {
+      "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\obj\\Debug\\net6.0\\build-gz\\etiy1tAc.gz",
+      "SourceId": "NathRestaurant.Ventas.UI.WebApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll"
+    },
+    {
+      "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\obj\\Debug\\net6.0\\build-gz\\eX0OgIEG.gz",
+      "SourceId": "NathRestaurant.Ventas.UI.WebApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Forms.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll"
     },
     {
       "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\obj\\Debug\\net6.0\\build-gz\\feoGUxTG.gz",
@@ -4726,23 +4811,6 @@
       "OriginalItemSpec": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Linq.Parallel.dll"
     },
     {
-      "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\obj\\Debug\\net6.0\\build-gz\\fRR09RuU.gz",
-      "SourceId": "NathRestaurant.Ventas.UI.WebApp",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
-    },
-    {
       "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\obj\\Debug\\net6.0\\build-gz\\FT9BbkWU.gz",
       "SourceId": "NathRestaurant.Ventas.UI.WebApp",
       "SourceType": "Computed",
@@ -4809,6 +4877,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Threading.Tasks.Parallel.dll"
+    },
+    {
+      "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\obj\\Debug\\net6.0\\build-gz\\g8TWTt7w.gz",
+      "SourceId": "NathRestaurant.Ventas.UI.WebApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
     },
     {
       "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\obj\\Debug\\net6.0\\build-gz\\Gbe3MjS6.gz",
@@ -4945,6 +5030,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.FileProviders.Abstractions.dll"
+    },
+    {
+      "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\obj\\Debug\\net6.0\\build-gz\\hlz+M6H5.gz",
+      "SourceId": "NathRestaurant.Ventas.UI.WebApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/MudBlazor.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MudBlazor.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MudBlazor.dll"
     },
     {
       "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\obj\\Debug\\net6.0\\build-gz\\hmCrNrDm.gz",
@@ -5489,23 +5591,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.Requests.dll"
-    },
-    {
-      "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\obj\\Debug\\net6.0\\build-gz\\n5L4P9OQ.gz",
-      "SourceId": "NathRestaurant.Ventas.UI.WebApp",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
       "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\obj\\Debug\\net6.0\\build-gz\\N6uqNJLh.gz",
@@ -6460,6 +6545,23 @@
       "OriginalItemSpec": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Security.Cryptography.Encoding.dll"
     },
     {
+      "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\obj\\Debug\\net6.0\\build-gz\\UJYd6B9J.gz",
+      "SourceId": "NathRestaurant.Ventas.UI.WebApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
+    },
+    {
       "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\obj\\Debug\\net6.0\\build-gz\\URi8wb0R.gz",
       "SourceId": "NathRestaurant.Ventas.UI.WebApp",
       "SourceType": "Computed",
@@ -6715,23 +6817,6 @@
       "OriginalItemSpec": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.Quic.dll"
     },
     {
-      "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\obj\\Debug\\net6.0\\build-gz\\W4VyThPV.gz",
-      "SourceId": "NathRestaurant.Ventas.UI.WebApp",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Web.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll"
-    },
-    {
       "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\obj\\Debug\\net6.0\\build-gz\\WltJFdRL.gz",
       "SourceId": "NathRestaurant.Ventas.UI.WebApp",
       "SourceType": "Computed",
@@ -6953,23 +7038,6 @@
       "OriginalItemSpec": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Compression.dll"
     },
     {
-      "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\obj\\Debug\\net6.0\\build-gz\\Ymp49QLI.gz",
-      "SourceId": "NathRestaurant.Ventas.UI.WebApp",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
-    },
-    {
       "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\obj\\Debug\\net6.0\\build-gz\\zfUxKIPW.gz",
       "SourceId": "NathRestaurant.Ventas.UI.WebApp",
       "SourceType": "Computed",
@@ -7121,193 +7189,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\app.css"
-    },
-    {
-      "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
-      "SourceId": "NathRestaurant.Ventas.UI.WebApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "css/bootstrap/bootstrap.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
-      "SourceId": "NathRestaurant.Ventas.UI.WebApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "css/bootstrap/bootstrap.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
-      "SourceId": "NathRestaurant.Ventas.UI.WebApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
-      "SourceId": "NathRestaurant.Ventas.UI.WebApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
-    },
-    {
-      "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
-      "SourceId": "NathRestaurant.Ventas.UI.WebApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
-    },
-    {
-      "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
-      "SourceId": "NathRestaurant.Ventas.UI.WebApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
-    },
-    {
-      "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
-      "SourceId": "NathRestaurant.Ventas.UI.WebApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
-    },
-    {
-      "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
-      "SourceId": "NathRestaurant.Ventas.UI.WebApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
-    },
-    {
-      "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
-      "SourceId": "NathRestaurant.Ventas.UI.WebApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "css/open-iconic/FONT-LICENSE",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
-    },
-    {
-      "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
-      "SourceId": "NathRestaurant.Ventas.UI.WebApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "css/open-iconic/ICON-LICENSE",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
-    },
-    {
-      "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\wwwroot\\css\\open-iconic\\README.md",
-      "SourceId": "NathRestaurant.Ventas.UI.WebApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "css/open-iconic/README.md",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
       "Identity": "C:\\Users\\vinny\\OneDrive\\Escritorio\\SysNathRestaurant\\NathRestaurant\\NathRestaurant.Ventas.UI.WebApp\\wwwroot\\favicon.ico",

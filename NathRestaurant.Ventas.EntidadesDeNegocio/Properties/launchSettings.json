@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "NathRestaurant.Ventas.EntidadesDeNegocio": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:54974;http://localhost:54977"
+    }
+  }
+}

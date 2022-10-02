@@ -9,7 +9,7 @@ namespace NathRestaurant.Ventas.WebAPI.Controllers
     [ApiController]
     public class CarritoController : ControllerBase
     {
-        private CarritoBL _carritoBL = new CarritoBL;
+        private CarritoBL _carritoBL = new CarritoBL();
         [HttpGet]
         public async Task<IEnumerable<Carrito>> Get()
         {

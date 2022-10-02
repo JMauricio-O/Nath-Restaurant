@@ -89,7 +89,7 @@ namespace NathRestaurant.Ventas.WebAPI.Controllers
             var option = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
             string strCliente = JsonSerializer.Serialize(pCliente);
             Cliente cliente = JsonSerializer.Deserialize<Cliente>(strCliente, option);
-            return await _clienteBL.BuscarAsync(pCliente);
+            return await _clienteBL.BuscarAsync(cliente);
         }
 
         [HttpPost("Login")]
