@@ -6,7 +6,6 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddCors();
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
     {
@@ -17,7 +16,7 @@ builder.Services.AddControllers()
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(n=>
 {
-    n.SwaggerDoc("v1", new OpenApiInfo { Title = "Nath.Restaurant.Ventas.WebAPI", Version = "v1" });
+    n.SwaggerDoc("v1", new OpenApiInfo { Title = "NathRestaurant.Ventas.WebAPI", Version = "v1" });
 
     var jwtSecurityScheme = new OpenApiSecurityScheme
     {
@@ -37,6 +36,11 @@ builder.Services.AddSwaggerGen(n=>
     n.AddSecurityDefinition(jwtSecurityScheme.Reference.Id, jwtSecurityScheme);
     n.AddSecurityRequirement(new OpenApiSecurityRequirement { { jwtSecurityScheme, Array.Empty<string>() } });
 });
+builder.Services.AddCors(p => p.AddPolicy("nathaly", builder =>
+{
+    builder.WithOrigins("https://localhost:7209").AllowAnyMethod().AllowAnyHeader();
+}));
+
 
 var key = "Natha1234-Rami09876-Lemm09";
 builder.Services.AddAuthentication(x =>
@@ -60,12 +64,7 @@ builder.Services.AddAuthentication(x =>
 builder.Services.AddSingleton<IJwtAuthenticationService>(new JwtAuthenticationService(key));
 
 var app = builder.Build();
-app.UseCors(option =>
-{
-    option.WithOrigins("*");
-    option.AllowAnyMethod();
-    option.AllowAnyHeader();
-});
+app.UseCors("nathaly");
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -73,10 +72,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+app.MapControllers();
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.MapControllers();
 
 app.Run();

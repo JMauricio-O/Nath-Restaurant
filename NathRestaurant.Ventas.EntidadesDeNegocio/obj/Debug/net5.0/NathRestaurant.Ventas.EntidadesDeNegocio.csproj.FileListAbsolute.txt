@@ -1,0 +1,5 @@
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.EntidadesDeNegocio\obj\Debug\net5.0\NathRestaurant.Ventas.EntidadesDeNegocio.csproj.AssemblyReference.cache
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.EntidadesDeNegocio\obj\Debug\net5.0\NathRestaurant.Ventas.EntidadesDeNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.EntidadesDeNegocio\obj\Debug\net5.0\NathRestaurant.Ventas.EntidadesDeNegocio.AssemblyInfoInputs.cache
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.EntidadesDeNegocio\obj\Debug\net5.0\NathRestaurant.Ventas.EntidadesDeNegocio.AssemblyInfo.cs
+C:\Users\vinny\OneDrive\Escritorio\SysNathRestaurant\NathRestaurant\NathRestaurant.Ventas.EntidadesDeNegocio\obj\Debug\net5.0\NathRestaurant.Ventas.EntidadesDeNegocio.csproj.CoreCompileInputs.cache

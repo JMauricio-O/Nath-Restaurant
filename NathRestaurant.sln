@@ -13,8 +13,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NathRestaurant.Ventas.WebAP
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NathRestaurant.Ventas.PruebasUnitarias", "NathRestaurant.Ventas.PruebasUnitarias\NathRestaurant.Ventas.PruebasUnitarias.csproj", "{3FAF6B2D-4250-4D58-870C-7DCE038E7A77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NathRestaurant.Ventas.UI.WebApp", "NathRestaurant.Ventas.UI.WebApp\NathRestaurant.Ventas.UI.WebApp.csproj", "{A540FC3D-F419-4D8E-AFAA-DE1E2788579A}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,10 +39,6 @@ Global
 		{3FAF6B2D-4250-4D58-870C-7DCE038E7A77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FAF6B2D-4250-4D58-870C-7DCE038E7A77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FAF6B2D-4250-4D58-870C-7DCE038E7A77}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A540FC3D-F419-4D8E-AFAA-DE1E2788579A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A540FC3D-F419-4D8E-AFAA-DE1E2788579A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A540FC3D-F419-4D8E-AFAA-DE1E2788579A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A540FC3D-F419-4D8E-AFAA-DE1E2788579A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

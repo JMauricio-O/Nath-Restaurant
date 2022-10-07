@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using NathRestaurant.Ventas.EntidadesDeNegocio;
 using NathRestaurant.Ventas.LogicaDeNegocio;
 using System.Text.Json;
@@ -12,6 +13,7 @@ namespace NathRestaurant.Ventas.WebAPI.Controllers
         private CategoriaBL _CategoriaBL = new CategoriaBL();
 
         [HttpGet]
+        [AllowAnonymous]
         public async Task<IEnumerable<Categoria>> Get()
         {
             return await _CategoriaBL.ObtenerTodosAsync();

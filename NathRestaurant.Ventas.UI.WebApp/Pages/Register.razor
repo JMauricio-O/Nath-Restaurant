@@ -1,0 +1,45 @@
+﻿@layout LoginLayout
+
+@page "/rolRegister"
+
+@inject NavigationManager NavigationManager
+@inject HttpClient http
+
+<EditForm Model="@rol" OnValidSubmit="OnValidSubmit">
+    <DataAnnotationsValidator />
+    <MudGrid>
+        <MudItem xs="12" sm="7">
+            <MudCard>
+                <MudCardContent>
+                    <MudTextField Label="First name" HelperText="Max. 8 characters"
+                                  @bind-Value="rol.Nombre" For="@(() => rol.Nombre)" />
+                </MudCardContent>
+                <MudCardActions>
+                    <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled" Color="Color.Primary" Class="ml-auto">Guardar</MudButton>
+                    <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="goLogin" Class="ml-auto">Login</MudButton>
+                </MudCardActions>
+            </MudCard>
+        </MudItem>
+    </MudGrid>
+</EditForm>
+
+@code {
+    Rol rol = new Rol();
+    protected async Task OnValidSubmit()
+    {
+        var httpResponse = await http.PostAsJsonAsync<Rol>("Rol/Crear", rol);
+        var contentResponse = await httpResponse.Content.ReadAsStreamAsync();
+        var resul = JsonSerializer.Deserialize<int>(contentResponse, new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            });
+        if (resul>0)
+        {
+            goLogin();
+        }
+    }
+
+    void goLogin(){
+        NavigationManager.NavigateTo("/");
+    }
+}

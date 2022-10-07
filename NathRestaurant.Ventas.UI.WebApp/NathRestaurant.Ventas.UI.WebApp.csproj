@@ -8,15 +8,19 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="Shared\LoginLayout.razor" />
+    <Content Remove="Pages\Categorias.razor" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Blazored.LocalStorage" Version="4.3.0-preview.1" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.Authorization" Version="6.0.9" />
+    <PackageReference Include="Blazored.LocalStorage" Version="4.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.8" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.8" PrivateAssets="all" />
     <PackageReference Include="MudBlazor" Version="6.0.16" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.8.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NathRestaurant.Ventas.EntidadesDeNegocio\NathRestaurant.Ventas.EntidadesDeNegocio.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -24,15 +28,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <UpToDateCheckInput Remove="Shared\LoginLayout.razor" />
+    <UpToDateCheckInput Remove="Pages\Categorias.razor" />
   </ItemGroup>
 
   <ItemGroup>
-    <_ContentIncludedByDefault Remove="Shared\LoginLayout.razor" />
+    <_ContentIncludedByDefault Remove="Pages\Categorias.razor" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="Shared\LoginLayout.razor" />
+    <None Include="Pages\Categorias.razor" />
   </ItemGroup>
 
 </Project>

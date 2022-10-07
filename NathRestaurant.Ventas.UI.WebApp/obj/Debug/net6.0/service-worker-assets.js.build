@@ -5,50 +5,6 @@
       "url": "css\/app.css"
     },
     {
-      "hash": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
-      "url": "css\/bootstrap\/bootstrap.min.css"
-    },
-    {
-      "hash": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
-      "url": "css\/bootstrap\/bootstrap.min.css.map"
-    },
-    {
-      "hash": "sha256-jA4J4h\/k76zVxbFKEaWwFKJccmO0voOQ1DbUW+5YNlI=",
-      "url": "css\/open-iconic\/FONT-LICENSE"
-    },
-    {
-      "hash": "sha256-BJ\/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=",
-      "url": "css\/open-iconic\/font\/css\/open-iconic-bootstrap.min.css"
-    },
-    {
-      "hash": "sha256-OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh\/chSkSvQpc=",
-      "url": "css\/open-iconic\/font\/fonts\/open-iconic.eot"
-    },
-    {
-      "hash": "sha256-sDUtuZAEzWZyv\/U1xl\/9D3ehyU69JE+FvAcu5HQ+\/a0=",
-      "url": "css\/open-iconic\/font\/fonts\/open-iconic.otf"
-    },
-    {
-      "hash": "sha256-+P1oQ5jPzOVJGC52E1oxGXIXxxCyMlqy6A9cNxGYzVk=",
-      "url": "css\/open-iconic\/font\/fonts\/open-iconic.svg"
-    },
-    {
-      "hash": "sha256-p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w=",
-      "url": "css\/open-iconic\/font\/fonts\/open-iconic.ttf"
-    },
-    {
-      "hash": "sha256-cZPqVlRJfSNW0KaQ4+UPOXZ\/v\/QzXlejRDwUNdZIofI=",
-      "url": "css\/open-iconic\/font\/fonts\/open-iconic.woff"
-    },
-    {
-      "hash": "sha256-aF5g\/izareSj02F3MPSoTGNbcMBl9nmZKDe04zjU\/ss=",
-      "url": "css\/open-iconic\/ICON-LICENSE"
-    },
-    {
-      "hash": "sha256-p\/oxU91iBE+uaDr3kYOyZPuulf4YcPAMNIz6PRA\/tb0=",
-      "url": "css\/open-iconic\/README.md"
-    },
-    {
       "hash": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=",
       "url": "favicon.ico"
     },
@@ -61,7 +17,7 @@
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-lUVtbZbxj8tIjcHNIB7QFiOuuKeW7krHALbi4axmG5c=",
+      "hash": "sha256-7g6SQW3DZOZgZaxbE3xESf8zvjcHbzj8vdjNOvqMkh0=",
       "url": "index.html"
     },
     {
@@ -77,20 +33,12 @@
       "url": "NathRestaurant.Ventas.UI.WebApp.styles.css"
     },
     {
-      "hash": "sha256-ynWr+ZcBLEcrLhC1IDSEoqOWRIVbme3rVb1XXBJb6sE=",
-      "url": "_framework\/Blazored.LocalStorage.dll"
-    },
-    {
       "hash": "sha256-HG+bnQWiEA1\/F6r\/8GQWduuLOyXyKN99vVSdpwio0zA=",
       "url": "_framework\/Microsoft.AspNetCore.Authorization.dll"
     },
     {
       "hash": "sha256-aJkTDmfPVpkW57SUuoxuimwnL7hXtTTmrPu2e\/VSnJU=",
       "url": "_framework\/Microsoft.AspNetCore.Components.dll"
-    },
-    {
-      "hash": "sha256-g7QHmVqXlLS+bhRRvXTFmuLTmYvtl5jFwoEfkaniim4=",
-      "url": "_framework\/Microsoft.AspNetCore.Components.Authorization.dll"
     },
     {
       "hash": "sha256-u9dpNv+WDt12I+80FSS8i0N1ilvLsQQYe6+53qDxg8A=",
@@ -165,6 +113,18 @@
       "url": "_framework\/Microsoft.Extensions.Primitives.dll"
     },
     {
+      "hash": "sha256-1gQmQQ5+ZHJTE1rCa3XJvqBxIbldSHvfA2XY0DNwLu4=",
+      "url": "_framework\/Microsoft.IdentityModel.JsonWebTokens.dll"
+    },
+    {
+      "hash": "sha256-Xi3khHgRgUdFH1KS3w0Zysb2RcmoB1QjQ5yZY+jJ0lY=",
+      "url": "_framework\/Microsoft.IdentityModel.Logging.dll"
+    },
+    {
+      "hash": "sha256-l8Q0l\/8slBAOheR+UlZIGag2yey6yRvOrZhyUqTwnpI=",
+      "url": "_framework\/Microsoft.IdentityModel.Tokens.dll"
+    },
+    {
       "hash": "sha256-DYwefUqbLHR02Eeg0D\/cGM+B8n21ZVDcFqn8qvoO77U=",
       "url": "_framework\/Microsoft.JSInterop.dll"
     },
@@ -175,6 +135,10 @@
     {
       "hash": "sha256-dtFJs1kTbcOInH4xowdaLNBIyCCFP5v6vGeAyEUOmI8=",
       "url": "_framework\/MudBlazor.dll"
+    },
+    {
+      "hash": "sha256-sXPVBzH5GkrOxg71dclCkIUu1x2JTXiA7Pz\/bqxogtw=",
+      "url": "_framework\/System.IdentityModel.Tokens.Jwt.dll"
     },
     {
       "hash": "sha256-6+E55JXedimdw1c1bDtVg4K7XuWjVWVTifH8QpfzXSY=",
@@ -873,11 +837,19 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-K1XNja4UQb2DKPdx\/FuFyQmFhzn6RFbkU6OYyCE7YIY=",
+      "hash": "sha256-by8kku6mRZ3nYL190eUmehAkNaedo82QIZXZso0mOtI=",
+      "url": "_framework\/NathRestaurant.Ventas.EntidadesDeNegocio.dll"
+    },
+    {
+      "hash": "sha256-PZEKzVzh7zaKB0wendDhDX9URZ+69Oh7wOD8jDO1NJg=",
+      "url": "_framework\/NathRestaurant.Ventas.EntidadesDeNegocio.pdb"
+    },
+    {
+      "hash": "sha256-tLB6diJQC+glN0nMYURDgYvltpOUYsnxBpVfPfyKxkc=",
       "url": "_framework\/NathRestaurant.Ventas.UI.WebApp.dll"
     },
     {
-      "hash": "sha256-HbkhNc4g0+ZzjNMQ2Wk1kub4j3aBYp4eNUTw640Ii9g=",
+      "hash": "sha256-G9KHY68\/wN8W2KLHQ9NhdMB\/ueI2+ojV+vWCZBF+OQc=",
       "url": "_framework\/NathRestaurant.Ventas.UI.WebApp.pdb"
     },
     {
@@ -885,7 +857,7 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-xyu1wlhwmZZRBCqRBScciaaNADchHgoZD+tC1qZdd\/8=",
+      "hash": "sha256-ID80SGy8BRWFYEfwcubdGWJZdYaoxjnsBlbZL7rqXss=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -897,5 +869,5 @@
       "url": "_content\/MudBlazor\/MudBlazor.min.js"
     }
   ],
-  "version": "3ij6HWDb"
+  "version": "niq\/Tyht"
 };
